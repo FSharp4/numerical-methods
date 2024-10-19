@@ -1,14 +1,15 @@
 [tool.poetry]
-name = "brilliant-euphonium"
+name = "numerical_methods"
 version = "0.1.0"
 description = ""
-authors = ["FSharp4 <33583307+FSharp4@users.noreply.github.com>"]
+authors = ["jake612@duck.com"]
 readme = "README.md"
-packages = [{include = "brilliant_euphonium"}]
+packages = [{include = "numerical_methods"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
 numpy = "^1.23.4"
+matplotlib = "^3.6.2"
 
 
 [tool.poetry.group.dev.dependencies]
